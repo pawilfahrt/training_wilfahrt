@@ -7,7 +7,7 @@ Peter has kindly invited me to edit this readme file. Colette is very welcome to
 
 It's fun to work on a common project from two different locations - Johannes is also helping!
 
-This is the easy part of git.
+This is the easy of git when collaborating on joint projects.
 
 Now let's move to the next phase and create conflicts to resolve them. Why would we intentionally make conflict? Yes - that is when things become really interesting - and I wonder how often it actually happens. Now we'll test what happens when Colette is a push behind.
 
