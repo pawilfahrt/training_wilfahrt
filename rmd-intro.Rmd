@@ -18,7 +18,8 @@ library(readr)
 
 # Introduction
 
-* Read in the data
+This is a short training segment in which we will be calculating the Redfield ratio for a small estuary in Alaska based on oceanographic data collected in 2008.
+
 ```{r message=FALSE, warning=FALSE}
 bg_chem <- read_csv("BGchem2008data.csv")
 
