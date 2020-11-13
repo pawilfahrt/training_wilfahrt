@@ -9,6 +9,6 @@ It's fun to work on a common project from two different locations - Johannes is 
 
 This is the easy part of git.
 
-Now let's move to the next phase and create conflicts to resolve them. Why would we intentionally make conflict? Yes - that is when things become really interesting - and I wonder how often it actually happens. 
+Now let's move to the next phase and create conflicts to resolve them. Why would we intentionally make conflict? Yes - that is when things become really interesting - and I wonder how often it actually happens. Now we'll test what happens when Colette is a push behind.
 
 
