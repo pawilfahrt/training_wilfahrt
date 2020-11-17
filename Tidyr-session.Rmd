@@ -1,0 +1,42 @@
+---
+title: "Tidyr session"
+author: "Peter"
+date: "11/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r,  message=FALSE}
+library(dplyr)
+library(tidyr)
+library(readr)
+```
+
+## Data sources
+
+### Read in the data
+
+```{r}
+catch_original <- read_csv('https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.302.1')
+```
+
+
+## Clean and reshape data
+
+```{r}
+catch_data <- catch_original %>% 
+  select(Region, Year, Chinook, Sockeye, Coho, Pink, Chum)
+```
+
+
+### Remove unnecessary columns
+
+### Check column typing
+
+### Reshape data
+
+## Join to Regions data
