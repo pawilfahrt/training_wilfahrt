@@ -2,4 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-shapefiles
+shapefiles/
+
+BGchem2008data.csv
